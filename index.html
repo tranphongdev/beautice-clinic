@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beautice Clinic</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="grid">
+      <!-- Header -->
+      <div class="container">
+        <header class="header">
+          <!-- Logo -->
+          <div class="header-logo">
+            <img src="./assets/images/logo.svg" alt="" />
+          </div>
+
+          <div class="menu-mobile">
+            <ul>
+              <li><a href="">Home</a></li>
+              <!-- Menu item -->
+            </ul>
+          </div>
+
+          <div class="header-main">
+            <!-- Header menu -->
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="" class="menu-link menu-link-active"
+                  >Home <img src="./assets/images/icon-plus.png" alt=""
+                /></a>
+              </li>
+              <li class="menu-item"><a href="" class="menu-link">About</a></li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Service</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Gallery</a>
+              </li>
+              <li class="menu-item"><a href="" class="menu-link">Blog</a></li>
+            </ul>
+
+            <!-- Contact -->
+            <a href="#" class="btn btn-header">Contact</a>
+
+            <!-- Logo bars menu -->
+            <button class="btn-menu-mobile" onclick="handleMobileBars()">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </header>
+      </div>
+
+      <!-- Main -->
+      <main>
+        <!-- Slider -->
+        <section class="container">
+          <div class="row">
+            <div class="col l-6 m-6 c-12">
+              <div class="slider-content">
+                <h1 class="text-heading">
+                  Clinic & beauty <br />
+                  consultant
+                </h1>
+                <p class="text-desc-heading">
+                  It is a long established fact that a reader will be by the
+                  readable content of a page.
+                </p>
+                <a href="#" class="btn btn-slider">More Details</a>
+              </div>
+            </div>
+            <div class="col l-6 m-6 c-12">
+              <div class="slider-image">
+                <img src="./assets/images/bg-slider.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Dot slider -->
+        <div class="slide-btn">
+          <img src="./assets/images/slide-btn.svg" alt="" />
+        </div>
+
+        <!-- Services -->
+        <section class="services">
+          <div class="container">
+            <div class="services-container">
+              <div class="services-heading">
+                <h4 class="text-primary-title">Main Services</h4>
+                <p>
+                  Learn services to focus <br />
+                  on your beauty
+                </p>
+              </div>
+              <p class="services-desc">
+                Porta rhoncus orci condimentum vitae lobortis eu dignissim non
+                massa. Non parturient amet, feugiat tellus sagittis, scelerisque
+                eget nulla turpis.
+              </p>
+            </div>
+
+            <div class="row" style="justify-content: space-between; gap: 47px">
+              <div class="col l-4 m-12 c-12 services-item">
+                <div class="service-img">
+                  <img src="./assets/images/service1.svg" alt="" />
+                </div>
+                <div class="services-item-content">
+                  <span>Beauty consultation</span>
+                  <p>
+                    Non parturient amet, feugiat tellus sagittis, scelerisque
+                    eget nulla turpis.
+                  </p>
+                </div>
+              </div>
+              <div class="col l-4 m-12 c-12 services-item">
+                <div class="service-img">
+                  <img src="./assets/images/service2.svg" alt="" />
+                </div>
+                <div class="services-item-content">
+                  <span>Skin treatments</span>
+                  <p>
+                    Non parturient amet, feugiat tellus sagittis, scelerisque
+                    eget nulla turpis.
+                  </p>
+                </div>
+              </div>
+              <div class="col l-4 m-12 c-12 services-item">
+                <div class="service-img">
+                  <img src="./assets/images/service3.svg" alt="" />
+                </div>
+                <div class="services-item-content">
+                  <span>Beauty product</span>
+                  <p>
+                    Non parturient amet, feugiat tellus sagittis, scelerisque
+                    eget nulla turpis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="services-bg">
+            <img src="./assets/images/bg-body3.png" alt="" />
+            <img
+              class="bg-service-item"
+              src="./assets/images/bg-body4.png"
+              alt=""
+            />
+          </div>
+        </section>
+
+        <!-- About -->
+        <section class="about">
+          <div class="container">
+            <div class="row">
+              <div class="col l-6 m-6 c-12">
+                <h2>l-6 m-6 c-12</h2>
+              </div>
+              <div class="col l-6 m-6 c-12">
+                <h2>l-6 m-6 c-12</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <button onclick="scrollToTop()" id="btnScrollToTop" title="Go to top">
+      <img src="./assets/images/arrow-up.svg" alt="" />
+    </button>
+
+    <!-- Javascript -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
