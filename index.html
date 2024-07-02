@@ -35,9 +35,53 @@
           </div>
 
           <div class="menu-mobile">
-            <ul>
-              <li><a href="">Home</a></li>
-              <!-- Menu item -->
+            <p class="mobile-menu-close" onclick="handleMobileBars()">
+              <i class="fa-solid fa-xmark"></i>
+            </p>
+            <ul class="list-menu-mobile">
+              <li>
+                <a href="#" class="mobile-menu-link-logo">Beautice Clinic</a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  onclick="handleMobileBars()"
+                  class="mobile-menu-link"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  onclick="handleMobileBars()"
+                  class="mobile-menu-link"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  onclick="handleMobileBars()"
+                  class="mobile-menu-link"
+                  >Service</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  onclick="handleMobileBars()"
+                  class="mobile-menu-link"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  onclick="handleMobileBars()"
+                  class="mobile-menu-link"
+                  >Blog</a
+                >
+              </li>
             </ul>
           </div>
 
@@ -173,16 +217,296 @@
         <section class="about">
           <div class="container">
             <div class="row">
-              <div class="col l-6 m-6 c-12">
-                <h2>l-6 m-6 c-12</h2>
+              <div class="col l-6 m-6 c-12 about-content">
+                <h3 class="text-primary-title">About Us</h3>
+                <p class="text-desc-about">We are the best beauty clinic</p>
+                <p class="text-desc-about-sub">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit,
+                  quam suscipit purus donec amet. Egestas volutpat facilisi eu
+                  libero. Nunc, ipsum ornare mauris sit quam quis enim. Varius
+                  tellus in suspendisse placerat.
+                </p>
+                <br />
+                <p class="text-desc-about-sub">
+                  Id dui erat sed quam tellus in purus. Pellentesque congue
+                  fringilla cras tellus enim.
+                </p>
+
+                <div class="about-group-btn">
+                  <a href="#" class="btn btn-about">Learn More</a>
+                  <button class="btn-watch">
+                    <img src="./assets/images/btn-play.svg" alt="" /> Watch
+                    Video
+                  </button>
+                </div>
               </div>
-              <div class="col l-6 m-6 c-12">
-                <h2>l-6 m-6 c-12</h2>
+              <div class="col l-6 m-6 c-12 about-image">
+                <img src="/assets/images/about-bg.png" alt="" />
               </div>
             </div>
           </div>
         </section>
+
+        <!-- Professional -->
+        <section class="professional">
+          <div class="container">
+            <div class="professional-container">
+              <div class="professional-heading">
+                <h4 class="text-primary-title">Professional Teams</h4>
+                <p class="text-title-professional">The Professional expert</p>
+                <p class="text-desc-professional">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam.
+                </p>
+              </div>
+            </div>
+
+            <div class="professional-content">
+              <div class="row">
+                <div class="col l-4 m-12 c-12 professional-main">
+                  <img
+                    src="./assets/images/avt1.svg"
+                    class="img-professional"
+                    alt=""
+                  />
+                  <h3 class="text-primary-title">Surgeon</h3>
+                  <span class="text-name">Briyan Nevalli</span>
+                  <p class="item-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                    aliquam, purus sit
+                  </p>
+
+                  <div class="socials">
+                    <div class="social-item">
+                      <img src="./assets/images/twitter.svg" alt="" />
+                    </div>
+                    <div class="social-item">
+                      <img src="./assets/images/facebook-f.svg" alt="" />
+                    </div>
+                    <div class="social-item">
+                      <img src="./assets/images/instagram.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-12 c-12 professional-main">
+                  <img
+                    src="./assets/images/avt2.svg"
+                    class="img-professional"
+                    alt=""
+                  />
+                  <h3 class="text-primary-title">Dermatologist</h3>
+                  <span class="text-name">Bella sebastian</span>
+                  <p class="item-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                    aliquam, purus sit
+                  </p>
+
+                  <div class="socials">
+                    <div class="social-item">
+                      <img src="./assets/images/twitter.svg" alt="" />
+                    </div>
+                    <div class="social-item">
+                      <img src="./assets/images/facebook-f.svg" alt="" />
+                    </div>
+                    <div class="social-item">
+                      <img src="./assets/images/instagram.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-12 c-12 professional-main">
+                  <img
+                    src="./assets/images/avt3.svg"
+                    class="img-professional"
+                    alt=""
+                  />
+                  <h3 class="text-primary-title">Stylist expert</h3>
+                  <span class="text-name">Lilly Adams</span>
+                  <p class="item-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                    aliquam, purus sit
+                  </p>
+
+                  <div class="socials">
+                    <div class="social-item">
+                      <img src="./assets/images/twitter.svg" alt="" />
+                    </div>
+                    <div class="social-item">
+                      <img src="./assets/images/facebook-f.svg" alt="" />
+                    </div>
+                    <div class="social-item">
+                      <img src="./assets/images/instagram.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col l-6 m-6 c-12 contact-image">
+                <img src="./assets/images/ContactAnimations.svg" alt="" />
+              </div>
+              <div class="col l-6 m-6 c-12">
+                <div class="contact-heading">
+                  <h4 class="text-primary-title">Contact Us</h4>
+                  <p class="text-contact-title">
+                    Send your inquiry to <br />
+                    our expert team
+                  </p>
+                  <p class="text-desc-contact">
+                    Lorem ipsum dolor sit amet nulla turapis tellus.
+                  </p>
+                </div>
+
+                <!-- Form contact -->
+                <div>
+                  <div class="row">
+                    <div class="col l-6 m-6 c-12">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="First name"
+                      />
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                      <input
+                        class="form-control"
+                        type="text"
+                        placeholder="Last name"
+                      />
+                    </div>
+                  </div>
+
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Email address"
+                  />
+
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subject message"
+                  />
+
+                  <textarea
+                    name=""
+                    id=""
+                    rows="7"
+                    placeholder="Your inquiry here"
+                    class="form-control"
+                  ></textarea>
+
+                  <a href="#" class="btn btn-contact"> Send Message </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-bg">
+            <img src="./assets/images/bg-contact1.svg" alt="" />
+            <img
+              class="contact-bg-item"
+              src="./assets/images/bg-contact2.svg"
+              alt=""
+            />
+          </div>
+        </section>
       </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="bg-ft"></div>
+        <img class="bg-ft-top" src="./assets/images/FooterBG2.svg" alt="" />
+
+        <div class="footer-main">
+          <div class="container">
+            <div class="footer-top-content">
+              <div class="row">
+                <div class="col l-4 m-12 c-12 footer-item-main">
+                  <img src="./assets/images/logo-footer.svg" alt="" />
+                  <p class="text-desc-left">
+                    <b>Beautice</b> is a Beauty Clinic WordPress Theme.
+                  </p>
+                  <p class="footer-address">
+                    Baker Steet 101, NY, United States.
+                  </p>
+                  <p class="footer-contact">
+                    <span>+521 569 8966.</span> <span>mail@company.com.</span>
+                  </p>
+                </div>
+
+                <div class="col l-4 m-12 c-12 footer-item-middle">
+                  <h2 class="footer-title-menu">Pages</h2>
+                  <ul>
+                    <li class="footer-link">
+                      <img src="./assets/images/caret-right.svg" alt="" /> Home
+                    </li>
+                    <li class="footer-link">
+                      <img src="./assets/images/caret-right.svg" alt="" /> About
+                    </li>
+                    <li class="footer-link">
+                      <img src="./assets/images/caret-right.svg" alt="" />
+                      Services
+                    </li>
+                    <li class="footer-link">
+                      <img src="./assets/images/caret-right.svg" alt="" />
+                      Gallery
+                    </li>
+                    <li class="footer-link">
+                      <img src="./assets/images/caret-right.svg" alt="" /> Team
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col l-4 m-12 c-12 footer-item-right">
+                  <h2 class="footer-title-menu">Informations</h2>
+                  <ul>
+                    <li
+                      class="footer-link footer-link-right footer-link-right-first"
+                    >
+                      <img src="./assets/images/caret-right.svg" alt="" /> Terms
+                      & conditions
+                    </li>
+                    <li class="footer-link footer-link-right">
+                      <img src="./assets/images/caret-right.svg" alt="" />
+                      Privacy policy
+                    </li>
+                    <li class="footer-link footer-link-right">
+                      <img src="./assets/images/caret-right.svg" alt="" /> Blog
+                    </li>
+                    <li class="footer-link footer-link-right">
+                      <img src="./assets/images/caret-right.svg" alt="" />
+                      Contact
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-bottom-content">
+              <div class="row">
+                <div class="col l-6 m-6 c-12 footer-socials">
+                  <img src="./assets/images/facebook-bottom.svg" alt="" />
+                  <img src="./assets/images/twitter-b.svg" alt="" />
+                  <img src="./assets/images/linkedin-in.svg" alt="" />
+                  <img src="./assets/images/youtube.svg" alt="" />
+                  <img src="./assets/images/instagram-b.svg" alt="" />
+                </div>
+                <div class="col l-6 m-6 c-12">
+                  <p class="text-copyright">
+                    © AltDesain Studio 2021 - All right reserved.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <button onclick="scrollToTop()" id="btnScrollToTop" title="Go to top">
